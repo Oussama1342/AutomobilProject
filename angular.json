@@ -24,9 +24,40 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css" ,
+              "src/assets/css/animate.css",
+              "src/assets/css/bootstrap.min.css" ,
+              "src/assets/css/flaticon.css" ,
+              "src/assets/css/fontawesome.min.css" ,
+              "src/assets/css/jquery-ui.min.css" ,
+              "src/assets/css/jquery.rprogessbar.min.css" , 
+              "src/assets/css/meanmenu.css" , 
+              "src/assets/css/responsive.css" ,
+              "src/assets/css/rpopup.min.css" ,
+              "src/assets/css/slick.css" ,
+              "src/assets/css/style.css" ,
+              "src/assets/css/themify-icons.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+
+              "./src/assetse/js/jquery-3.4.1.min.js" , 
+              "./src/assetse/js/bootstrap.min.js" , 
+              "./src/assetse/js/countdown.js" , 
+              "./src/assetse/js/custom-input-number.js", 
+              "./src/assetse/js/imagesloaded.pkgd.min.js",
+              "./src/assetse/js/jquery-migrate.min.js" , 
+              "./src/assetse/js/jquery-ui.js" , 
+              "./src/assetse/js/jquery.meanmenu.min.js" , 
+              "./src/assetse/js/jquery.nice-select.min.js" , 
+              "./src/assetse/js/JQuery.rcounter.js",
+              "./src/assetse/js/jquery.rPopup.js" ,
+              "./src/assetse/js/main.js" ,
+              "./src/assetse/js/mixitup.min.js" ,
+              "./src/assetse/js/slick.min.js" , 
+              "./src/assetse/js/waypoints.min.js" ,
+              "./src/assetse/js/wow.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -88,7 +119,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css" 
+              
             ],
             "scripts": []
           }
