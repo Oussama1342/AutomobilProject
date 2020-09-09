@@ -22,12 +22,12 @@ const intvl = setInterval(function() {
     const sec = Math.floor((distance % (1000 * 60)) / 1000);
 
     //Display Result
-    countdown.innerHTML = `
-        <div class="countdown__item"><h2 class="countdown__lg-text">${days}</h2><span class="countdown__sm-text">Days</span></div>
-        <div class="countdown__item"><h2 class="countdown__lg-text">${hours}</h2><span class="countdown__sm-text">Hour</span></div>
-        <div class="countdown__item"><h2 class="countdown__lg-text">${mins}</h2><span class="countdown__sm-text">Minutes</span></div>
-        <div class="countdown__item"><h2 class="countdown__lg-text">${sec}</h2><span class="countdown__sm-text">Seconds</span></div>
-    `;
+   // countdown.innerHTML = `
+     //   <div class="countdown__item"><h2 class="countdown__lg-text">${days}</h2><span class="countdown__sm-text">Days</span></div>
+       // <div class="countdown__item"><h2 class="countdown__lg-text">${hours}</h2><span class="countdown__sm-text">Hour</span></div>
+        //<div class="countdown__item"><h2 class="countdown__lg-text">${mins}</h2><span class="countdown__sm-text">Minutes</span></div>
+        //<div class="countdown__item"><h2 class="countdown__lg-text">${sec}</h2><span class="countdown__sm-text">Seconds</span></div>
+    //`;
 
     //If launch date passed
     if (distance < 0) {

@@ -16,7 +16,7 @@ import { Shop2Component } from './shop2/shop2.component';
 import { Shop1DetailComponent } from './shop1-detail/shop1-detail.component';
 import { Shop2DetailComponent } from './shop2-detail/shop2-detail.component';
 import { HomeComponent } from './home/home.component';
-
+import {AuthentificationService} from './authentification.service'
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +33,7 @@ import { HomeComponent } from './home/home.component';
     Shop1DetailComponent,
     Shop2DetailComponent,
     HomeComponent,
+    AuthentificationService
   ],
   imports: [
     BrowserModule,
